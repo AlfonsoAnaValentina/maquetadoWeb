@@ -1,0 +1,80 @@
+ body {
+   background-image: url("./images/banana.jpg");
+    background-repeat: repeat-x;
+   background-color: #cccccc;
+}
+
+nav {
+    background-image: url('./images/encabezado.png');
+    height: auto;
+}
+
+.transparent-background {
+  width: 70%;
+  height: 150%;
+  margin-bottom: 20px;
+  background-color: black;
+  position: absolute;
+  right: 20px;
+  background-color: rgba(0,0,0,0.5);
+}
+.icon-menu {
+  width: 200px;
+  height: 190px;
+  background-color: black;
+  display: inline-flex;
+  margin: 2%;
+}
+
+.image-container {
+  width: 80%;
+  height: 50%;
+  background-image:   url('https://i.pinimg.com/236x/d0/98/1d/d0981dd49b4384fbae8df2fe6bdbb82c--image-editing-photo-editing.jpg');
+  display: inline-flex;
+  margin: 10%;
+}
+
+.text-container {
+  color: white;
+  display: inline-flex;
+}
+
+.tooltip{
+    display: inline;
+    position: relative;
+}
+
+.tooltip:hover:after{
+    background: #333;
+    background: rgba(0,0,0,.8);
+    border-radius: 5px;
+    bottom: 26px;
+    color: #fff;
+    content: attr(title);
+    left: 20%;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 220px;
+}
+
+.tooltip:hover:before{
+    border: solid;
+    border-color: #333 transparent;
+    border-width: 6px 6px 0 6px;
+    bottom: 20px;
+    content: "";
+    left: 50%;
+    position: absolute;
+    z-index: 99;
+}
+
+body, td { font: 14px/1.4 verdana, arial, helvetica, sans-serif; }
+h1 { font-size:1.3em; }
+h2 { font-size:1.2em; }
+a:link { color:#33c; }    
+a:visited { color:#339; }
+ul { margin-bottom: 2.4em; }
+ul li { margin-bottom:.5em; }
+p { max-width: 60em; }
+span.news { font-weight:bold; font-style:italic; }
