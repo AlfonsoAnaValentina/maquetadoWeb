@@ -23,14 +23,26 @@
     <div 
       class="item container background-image-container primer-imagen-container"
       id="sectionEncabezado"> 
-        <img class="encabezado-img" src="./images/encabezado.png" alt="banana">
         <div class="row">
-          <div class="puerta-azul-container col-12">
-            <a class="btn btn-dark" href="#" role="button">Link</a>
-            <a class="btn btn-dark" href="#" role="button">Link</a>
-            <a class="btn btn-dark" href="#" role="button">Link</a>
+          <div class="col-12">
+            <img class="encabezado-img" src="./images/encabezado.png" alt="Barcelona">
+          </div>
+        </div>
+        <div class="row">
+          <div class="puerta-azul-container-1 col-2 offset-9">
+            <a class="btn boton-puerta-azul" href="#" role="button">LA CARTA</a>
           </div>
         </div>   
+        <div class="row">
+          <div class="puerta-azul-container-2 col-2 offset-9">
+            <a id="downClick" class="btn boton-puerta-azul" href="#galeria-slider" role="button">GALERIA</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="puerta-azul-container-3 col-2 offset-9">
+            <a class="btn boton-puerta-azul" href="#" role="button">CONTACTO</a>
+          </div>
+        </div>
     </div> 
     <div 
       class="item container background-image-container segunda-imagen-container"> 
@@ -46,14 +58,14 @@
         </div>   
         <div class="row"> 
           <div class="col-2 offset-4 boton-abajo-container">
-            <a href="#section2" id="downClick">
+            <a href="#barcelona-seccion" id="downClick">
               <img class="boton-arriba-imagen" src="./images/boton_abajo.png">
             </a>
           </div>    
         </div>  
     </div> 
     <div 
-      id="section2" 
+      id="barcelona-seccion" 
       class="item container background-image-container tercera-imagen-container">           
         <div class="row">
           <div class="barcelona-container col-5 offset-7">
@@ -68,14 +80,14 @@
         </div>   
         <div class="row"> 
           <div class="col-2 offset-4 boton-abajo-container">
-            <a href="#section3" id="downClick">
+            <a href="#delivery-seccion" id="downClick">
               <img class="boton-arriba-imagen" src="./images/boton_abajo.png">
             </a>
           </div>    
         </div> 
     </div>
     <div 
-      id="section3" 
+      id="delivery-seccion" 
       class="item container background-image-container cuarta-imagen-container">          
       <div class="row delivery-container">
           <div class="texto-generico texto-proba col-5 offset-7">
@@ -91,40 +103,26 @@
         </div>
         <div class="row"> 
           <div class="col-2 offset-4 boton-abajo-container">
-            <a href="#section4" id="downClick">
+            <a href="#campari-seccion" id="downClick">
               <img class="boton-arriba-imagen" src="./images/boton_abajo.png">
             </a>
           </div>    
         </div> 
     </div> 
     <div 
-      id="section4"
+      id="campari-seccion"
       class="item container background-image-container quinta-imagen-container">          
         <div class="row">
           <div class="campari-container col-6 offset-5">
            
           </div>
-          
-        </div>   
-        <div class="row"> 
-          <div class="col-2 offset-4 boton-arriba-container">
-            <a href="javascript:" id="return-to-top">
-              <img class="boton-arriba-imagen" src="./images/boton_arriba.png">
-            </a>
-          </div>    
-        </div> 
+        </div>    
     </div> 
     <div 
-      id="section5"
+      id="galeria-slider"
       class="item container slider-container">          
         <div class="row">
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img class="d-block w-100" src="./images/6.png" alt="First slide">
@@ -152,6 +150,11 @@
     </div> 
 </div>
 <div class="footer"> 
+  <div class="boton-arriba-container">
+    <a href="javascript:" id="return-to-top">
+      <img class="boton-arriba-imagen" src="./images/boton_arriba.png">
+    </a>
+  </div>
   <img src="./images/pie.png" alt="currant">  
 </div> 
 <script type="text/javascript">

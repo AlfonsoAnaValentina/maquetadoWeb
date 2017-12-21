@@ -59,7 +59,13 @@ nav {
 .boton-arriba-imagen {
     width: 276px;
     height: 195px;
-    margin-top: 100px;
+    position: relative;
+    top: -100px;
+    left: 41%;
+}
+
+.boton-arriba-container {
+    height: 0;
 }
 
 .container-fluid.container-fix {
@@ -69,8 +75,33 @@ nav {
     margin-left:auto
  }
 
-.puerta-azul-container {
-    margin-top: 720px;
+.puerta-azul-container-1 {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.puerta-azul-container-2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.puerta-azul-container-3 {
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.btn.boton-puerta-azul {
+    height: 100px;
+    font-size: 59px;
+    color: white;
+    width: 340px;
+    opacity: 0.75;
+    background-color: black;
+    border-color: black;
+}
+
+.btn.boton-puerta-azul:hover {
+    color: white;
 }
 
 .texto-culpas {
