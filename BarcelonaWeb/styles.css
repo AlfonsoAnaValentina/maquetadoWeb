@@ -41,9 +41,6 @@ nav {
     background-image: url('images/4.png');
 }
 
-.quinta-imagen-container {
-    background-image: url('images/5.png');
-}
 
 .encabezado-img {
     width: 100%;
@@ -51,8 +48,8 @@ nav {
 }
 
 .boton-abajo-imagen {
-    width: 276px;
-    height: 195px;
+    width: 138%;
+    height: 62%;
     margin-bottom: 100px;
 }
 
@@ -137,7 +134,6 @@ nav {
 
 
 .campari-container {
-    height: 832px;
 }
 
 .item.container.slider-container {
