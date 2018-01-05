@@ -44,21 +44,22 @@ nav {
 
 .encabezado-img {
     width: 100%;
-    height: 200px;
+    height: 100%;
 }
 
 .boton-abajo-imagen {
     width: 138%;
     height: 62%;
     margin-bottom: 100px;
+    margin-left: 35%;
 }
 
 .boton-arriba-imagen {
-    width: 276px;
-    height: 195px;
-    position: relative;
-    top: -100px;
-    left: 41%;
+    position: absolute;
+    height: 34%;
+    width: 21%;
+    top: -19%;
+    left: 40%;
 }
 
 .boton-arriba-container {
@@ -139,4 +140,16 @@ nav {
 .item.container.slider-container {
     margin: 0;
     max-width: 100%;
+}
+
+.contacto-container-class {
+    position: relative;
+}
+
+.facebook-container {
+    position: absolute;
+    height: 20%;
+    width: 10%;
+    bottom: 50%;
+    left: 75%;
 }
